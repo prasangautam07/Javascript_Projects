@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    color: rgb(16, 42, 66);
+    background-color: rgba(251, 249, 249, 0.916);
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 5px;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1.6px solid rgb(34, 34, 34);
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: background-color 0.7s;
+}
+
+button:hover{
+    background-color: rgb(16, 42, 66);
+    color: white;
+}

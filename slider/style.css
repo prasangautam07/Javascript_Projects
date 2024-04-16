@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 70rem;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    margin-left: 15rem;
+    height: 25rem;
+    width: 50rem;
+    overflow: hidden;
+    position: relative;    
+}
+
+.box1 ,.box2,.box3{
+    
+    height: 25rem;
+    width: 50rem;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 2rem;
+    transition: transform 0.9s linear;
+}
+.box1{
+    position: absolute;
+    background-color: blue;
+}
+.box2{
+    position: absolute;
+    background-color: red;
+}
+.box3{
+    position: absolute;
+    background-color: green;
+}
+
+.hide{
+    transform: translateX(-100%);
+}

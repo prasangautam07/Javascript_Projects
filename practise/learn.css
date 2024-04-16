@@ -1,0 +1,24 @@
+.name,#date{
+    height: 30px;
+}
+.add-btn{
+    height: 30px;
+    width: 50px;
+    background-color: green;
+    color: white;
+}
+.todo-container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    align-items: center;
+    row-gap: 10px;
+    
+}
+.delete-btn{
+    height: 35px;
+    width: 60px;
+    color: wheat;
+    background-color: rgb(147, 28, 28);
+    margin-bottom: 5px;
+}
+

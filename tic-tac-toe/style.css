@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.tic{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.winner{
+    text-align: center;
+    color: white;
+    margin-top: 40px;  
+}
+.hide{
+    display: none;
+    
+
+}
+body{
+    background-color: #5d5ddc;
+    color: #797A81;  
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.boxes{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.box{
+    height: 70px;
+    width: 70px;
+    border: none;
+    background-color: lightcyan;
+    border-radius: 5px;
+    font-size: 35px;
+    color: #c25613;
+}
+.reset-btn{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #c25613;
+    font-size: 22px;
+    color: rgb(230, 224, 224);
+    font-weight: bold;
+}
+

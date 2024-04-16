@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(240, 243, 247);
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+    height: 96vh;
+    background-color: white;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+.cross{
+    color: rgb(201, 21, 21);
+    text-shadow: none;
+    padding: 10px;
+    margin-top: 5px;
+    transition: transform 0.4s ease;
+}
+.cross:hover{
+    transform: rotate(360deg);
+}
+.top-section p{
+    letter-spacing: 3px;
+}
+
+span{
+    color: rgb(76, 181, 215);
+}
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 17rem;
+    margin-top: 20px;
+}
+
+.middle-section a{
+    
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 3rem;
+    padding: 10px;
+    padding-left: 20px;
+    color: #617d98;
+    transition: background-color 0.7s linear;
+    transition: padding-left 0.5s;
+}
+
+.middle-section a:hover{
+    background-color: #b5defc;
+    padding-left: 25px;
+}
+
+.menu-icon{
+    font-size: 30px;
+    padding: 35px;
+    padding-top: 20px;
+    margin-left: 195vb;
+    color: rgb(76, 181, 215);
+    position: fixed;
+
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 599px) {
+    .menu-icon{
+        font-size: 30px;
+        padding: 35px;
+        padding-top: 30px;
+        margin-left: 280px;
+        color: rgb(76, 181, 215);
+        position: fixed;
+    
+    }
+    .cross{
+        display: none;
+    }
+    
+  }
+@media screen and (min-width: 599px ),screen and (min-width: 1000px) {
+    .menu-icon{
+        font-size: 30px;
+        padding: 35px;
+        padding-top: 30px;
+        margin-left: 195vb;
+        color: rgb(76, 181, 215);
+        position: fixed;
+    
+    }
+    
+  }
